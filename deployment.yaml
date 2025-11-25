@@ -29,7 +29,7 @@ spec:
       serviceAccountName: hello-spring-cloud
       containers:
       - name: hello-spring-cloud-web
-        image: "image-registry.openshift-image-registry.svc:5000/hello-spring-cloud-web:latest"
+        image: "quay.io/anattama/hello-spring-cloud:latest"
         imagePullPolicy: Always
         command:
           - "/bin/bash"
